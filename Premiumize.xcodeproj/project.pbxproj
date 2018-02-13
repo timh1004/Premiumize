@@ -15,13 +15,26 @@
 		082BCC7E202120C60060DD8A /* PremiumizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082BCC7D202120C60060DD8A /* PremiumizeTests.swift */; };
 		082BCC89202120C70060DD8A /* PremiumizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082BCC88202120C70060DD8A /* PremiumizeUITests.swift */; };
 		084BE45B2023CFFE00DA98FB /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BE45A2023CFFE00DA98FB /* TableViewHelper.swift */; };
-		084BE45D2025CA1A00DA98FB /* DownloaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BE45C2025CA1A00DA98FB /* DownloaderViewController.swift */; };
 		084E4113202764AC00010483 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E4112202764AC00010483 /* LoginCredentials.swift */; };
 		084E4115202771C300010483 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E4114202771C200010483 /* CircleProgressView.swift */; };
 		084E4117202779E100010483 /* PlayableFileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E4116202779E100010483 /* PlayableFileTableViewCell.swift */; };
+		086DF4CA20307CC3008AE185 /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BE45A2023CFFE00DA98FB /* TableViewHelper.swift */; };
+		086DF4CC2030849B008AE185 /* DownloaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BE45C2025CA1A00DA98FB /* DownloaderViewController.swift */; };
+		086DF4CE2030B6DC008AE185 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DF4CD2030B6DC008AE185 /* DownloadManager.swift */; };
+		086DF4D02030BDB6008AE185 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DF4CF2030BDB6008AE185 /* OfflineViewController.swift */; };
 		0878DBEC20227B3400081FC7 /* UIActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878DBEB20227B3400081FC7 /* UIActivities.swift */; };
 		0878DBEE2022806500081FC7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878DBED2022806500081FC7 /* DataModel.swift */; };
 		08E155DC2025E4BE0060088C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E155DB2025E4BE0060088C /* Player.swift */; };
+		08EC2894203064B4002D1B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC2893203064B4002D1B79 /* AppDelegate.swift */; };
+		08EC2898203064B4002D1B79 /* DownloaderViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC2897203064B4002D1B79 /* DownloaderViewControllerViewController.swift */; };
+		08EC289D203064B4002D1B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EC289C203064B4002D1B79 /* Assets.xcassets */; };
+		08EC28A8203064B4002D1B79 /* Premiumize_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC28A7203064B4002D1B79 /* Premiumize_tvOSTests.swift */; };
+		08EC28B3203064B4002D1B79 /* Premiumize_tvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC28B2203064B4002D1B79 /* Premiumize_tvOSUITests.swift */; };
+		08EC28BF203064CC002D1B79 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EC28BE203064CB002D1B79 /* CloudViewController.swift */; };
+		08EC28C1203064DE002D1B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EC28C0203064DE002D1B79 /* Main.storyboard */; };
+		08EC28C220306531002D1B79 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878DBED2022806500081FC7 /* DataModel.swift */; };
+		08EC28C320306535002D1B79 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E4112202764AC00010483 /* LoginCredentials.swift */; };
+		08EC28C420306543002D1B79 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E155DB2025E4BE0060088C /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +51,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 082BCC64202120C60060DD8A;
 			remoteInfo = Premiumize;
+		};
+		08EC28A4203064B4002D1B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082BCC5D202120C60060DD8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EC2890203064B4002D1B79;
+			remoteInfo = "Premiumize tvOS";
+		};
+		08EC28AF203064B4002D1B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082BCC5D202120C60060DD8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EC2890203064B4002D1B79;
+			remoteInfo = "Premiumize tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -60,10 +87,26 @@
 		084E4112202764AC00010483 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
 		084E4114202771C200010483 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		084E4116202779E100010483 /* PlayableFileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayableFileTableViewCell.swift; sourceTree = "<group>"; };
+		086DF4C720306C8E008AE185 /* Premiumize tvOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Premiumize tvOS.entitlements"; sourceTree = "<group>"; };
+		086DF4CD2030B6DC008AE185 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		086DF4CF2030BDB6008AE185 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
 		0878DBEB20227B3400081FC7 /* UIActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivities.swift; sourceTree = "<group>"; };
 		0878DBED2022806500081FC7 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		08E155DB2025E4BE0060088C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		08E155DD2027601F0060088C /* Premiumize.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Premiumize.entitlements; sourceTree = "<group>"; };
+		08EC2891203064B4002D1B79 /* Premiumize tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Premiumize tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EC2893203064B4002D1B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08EC2897203064B4002D1B79 /* DownloaderViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderViewControllerViewController.swift; sourceTree = "<group>"; };
+		08EC289C203064B4002D1B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08EC289E203064B4002D1B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EC28A3203064B4002D1B79 /* Premiumize tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Premiumize tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EC28A7203064B4002D1B79 /* Premiumize_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiumize_tvOSTests.swift; sourceTree = "<group>"; };
+		08EC28A9203064B4002D1B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EC28AE203064B4002D1B79 /* Premiumize tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Premiumize tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EC28B2203064B4002D1B79 /* Premiumize_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premiumize_tvOSUITests.swift; sourceTree = "<group>"; };
+		08EC28B4203064B4002D1B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EC28BE203064CB002D1B79 /* CloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
+		08EC28C0203064DE002D1B79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +131,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08EC288E203064B4002D1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EC28A0203064B4002D1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EC28AB203064B4002D1B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +161,9 @@
 				082BCC67202120C60060DD8A /* Premiumize */,
 				082BCC7C202120C60060DD8A /* PremiumizeTests */,
 				082BCC87202120C70060DD8A /* PremiumizeUITests */,
+				08EC2892203064B4002D1B79 /* Premiumize tvOS */,
+				08EC28A6203064B4002D1B79 /* Premiumize tvOSTests */,
+				08EC28B1203064B4002D1B79 /* Premiumize tvOSUITests */,
 				082BCC66202120C60060DD8A /* Products */,
 				08E155DE202760460060088C /* Frameworks */,
 			);
@@ -108,6 +175,9 @@
 				082BCC65202120C60060DD8A /* Premiumize.app */,
 				082BCC79202120C60060DD8A /* PremiumizeTests.xctest */,
 				082BCC84202120C70060DD8A /* PremiumizeUITests.xctest */,
+				08EC2891203064B4002D1B79 /* Premiumize tvOS.app */,
+				08EC28A3203064B4002D1B79 /* Premiumize tvOSTests.xctest */,
+				08EC28AE203064B4002D1B79 /* Premiumize tvOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +195,9 @@
 				0878DBEB20227B3400081FC7 /* UIActivities.swift */,
 				084BE45A2023CFFE00DA98FB /* TableViewHelper.swift */,
 				084E4114202771C200010483 /* CircleProgressView.swift */,
+				086DF4CD2030B6DC008AE185 /* DownloadManager.swift */,
 				082BCC6C202120C60060DD8A /* Main.storyboard */,
+				086DF4CF2030BDB6008AE185 /* OfflineViewController.swift */,
 				084E4116202779E100010483 /* PlayableFileTableViewCell.swift */,
 				082BCC6F202120C60060DD8A /* Assets.xcassets */,
 				082BCC71202120C60060DD8A /* LaunchScreen.storyboard */,
@@ -157,6 +229,38 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08EC2892203064B4002D1B79 /* Premiumize tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				086DF4C720306C8E008AE185 /* Premiumize tvOS.entitlements */,
+				08EC2893203064B4002D1B79 /* AppDelegate.swift */,
+				08EC28BE203064CB002D1B79 /* CloudViewController.swift */,
+				08EC2897203064B4002D1B79 /* DownloaderViewControllerViewController.swift */,
+				08EC28C0203064DE002D1B79 /* Main.storyboard */,
+				08EC289C203064B4002D1B79 /* Assets.xcassets */,
+				08EC289E203064B4002D1B79 /* Info.plist */,
+			);
+			path = "Premiumize tvOS";
+			sourceTree = "<group>";
+		};
+		08EC28A6203064B4002D1B79 /* Premiumize tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				08EC28A7203064B4002D1B79 /* Premiumize_tvOSTests.swift */,
+				08EC28A9203064B4002D1B79 /* Info.plist */,
+			);
+			path = "Premiumize tvOSTests";
+			sourceTree = "<group>";
+		};
+		08EC28B1203064B4002D1B79 /* Premiumize tvOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08EC28B2203064B4002D1B79 /* Premiumize_tvOSUITests.swift */,
+				08EC28B4203064B4002D1B79 /* Info.plist */,
+			);
+			path = "Premiumize tvOSUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +319,59 @@
 			productReference = 082BCC84202120C70060DD8A /* PremiumizeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		08EC2890203064B4002D1B79 /* Premiumize tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EC28B5203064B5002D1B79 /* Build configuration list for PBXNativeTarget "Premiumize tvOS" */;
+			buildPhases = (
+				08EC288D203064B4002D1B79 /* Sources */,
+				08EC288E203064B4002D1B79 /* Frameworks */,
+				08EC288F203064B4002D1B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Premiumize tvOS";
+			productName = "Premiumize tvOS";
+			productReference = 08EC2891203064B4002D1B79 /* Premiumize tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08EC28A2203064B4002D1B79 /* Premiumize tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EC28B8203064B5002D1B79 /* Build configuration list for PBXNativeTarget "Premiumize tvOSTests" */;
+			buildPhases = (
+				08EC289F203064B4002D1B79 /* Sources */,
+				08EC28A0203064B4002D1B79 /* Frameworks */,
+				08EC28A1203064B4002D1B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EC28A5203064B4002D1B79 /* PBXTargetDependency */,
+			);
+			name = "Premiumize tvOSTests";
+			productName = "Premiumize tvOSTests";
+			productReference = 08EC28A3203064B4002D1B79 /* Premiumize tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08EC28AD203064B4002D1B79 /* Premiumize tvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EC28BB203064B5002D1B79 /* Build configuration list for PBXNativeTarget "Premiumize tvOSUITests" */;
+			buildPhases = (
+				08EC28AA203064B4002D1B79 /* Sources */,
+				08EC28AB203064B4002D1B79 /* Frameworks */,
+				08EC28AC203064B4002D1B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EC28B0203064B4002D1B79 /* PBXTargetDependency */,
+			);
+			name = "Premiumize tvOSUITests";
+			productName = "Premiumize tvOSUITests";
+			productReference = 08EC28AE203064B4002D1B79 /* Premiumize tvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -229,6 +386,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -246,6 +406,28 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 082BCC64202120C60060DD8A;
+					};
+					08EC2890203064B4002D1B79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					08EC28A2203064B4002D1B79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08EC2890203064B4002D1B79;
+					};
+					08EC28AD203064B4002D1B79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 08EC2890203064B4002D1B79;
 					};
 				};
 			};
@@ -265,6 +447,9 @@
 				082BCC64202120C60060DD8A /* Premiumize */,
 				082BCC78202120C60060DD8A /* PremiumizeTests */,
 				082BCC83202120C70060DD8A /* PremiumizeUITests */,
+				08EC2890203064B4002D1B79 /* Premiumize tvOS */,
+				08EC28A2203064B4002D1B79 /* Premiumize tvOSTests */,
+				08EC28AD203064B4002D1B79 /* Premiumize tvOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +479,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08EC288F203064B4002D1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EC28C1203064DE002D1B79 /* Main.storyboard in Resources */,
+				08EC289D203064B4002D1B79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EC28A1203064B4002D1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EC28AC203064B4002D1B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -301,10 +509,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086DF4D02030BDB6008AE185 /* OfflineViewController.swift in Sources */,
 				084E4113202764AC00010483 /* LoginCredentials.swift in Sources */,
+				086DF4CE2030B6DC008AE185 /* DownloadManager.swift in Sources */,
 				082BCC6B202120C60060DD8A /* CloudViewController.swift in Sources */,
 				084E4115202771C300010483 /* CircleProgressView.swift in Sources */,
-				084BE45D2025CA1A00DA98FB /* DownloaderViewController.swift in Sources */,
+				086DF4CC2030849B008AE185 /* DownloaderViewController.swift in Sources */,
 				0878DBEE2022806500081FC7 /* DataModel.swift in Sources */,
 				082BCC69202120C60060DD8A /* AppDelegate.swift in Sources */,
 				08E155DC2025E4BE0060088C /* Player.swift in Sources */,
@@ -330,6 +540,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08EC288D203064B4002D1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EC28C320306535002D1B79 /* LoginCredentials.swift in Sources */,
+				086DF4CA20307CC3008AE185 /* TableViewHelper.swift in Sources */,
+				08EC28C220306531002D1B79 /* DataModel.swift in Sources */,
+				08EC2898203064B4002D1B79 /* DownloaderViewControllerViewController.swift in Sources */,
+				08EC2894203064B4002D1B79 /* AppDelegate.swift in Sources */,
+				08EC28C420306543002D1B79 /* Player.swift in Sources */,
+				08EC28BF203064CC002D1B79 /* CloudViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EC289F203064B4002D1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EC28A8203064B4002D1B79 /* Premiumize_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EC28AA203064B4002D1B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EC28B3203064B4002D1B79 /* Premiumize_tvOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -342,6 +582,16 @@
 			isa = PBXTargetDependency;
 			target = 082BCC64202120C60060DD8A /* Premiumize */;
 			targetProxy = 082BCC85202120C70060DD8A /* PBXContainerItemProxy */;
+		};
+		08EC28A5203064B4002D1B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EC2890203064B4002D1B79 /* Premiumize tvOS */;
+			targetProxy = 08EC28A4203064B4002D1B79 /* PBXContainerItemProxy */;
+		};
+		08EC28B0203064B4002D1B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EC2890203064B4002D1B79 /* Premiumize tvOS */;
+			targetProxy = 08EC28AF203064B4002D1B79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -570,6 +820,118 @@
 			};
 			name = Release;
 		};
+		08EC28B6203064B5002D1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Premiumize tvOS/Premiumize tvOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS2528ANW;
+				INFOPLIST_FILE = "Premiumize tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitart.premiumize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		08EC28B7203064B5002D1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Premiumize tvOS/Premiumize tvOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS2528ANW;
+				INFOPLIST_FILE = "Premiumize tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.habitart.premiumize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		08EC28B9203064B5002D1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS2528ANW;
+				INFOPLIST_FILE = "Premiumize tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timh1004.Premiumize-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Premiumize tvOS.app/Premiumize tvOS";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		08EC28BA203064B5002D1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS2528ANW;
+				INFOPLIST_FILE = "Premiumize tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timh1004.Premiumize-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Premiumize tvOS.app/Premiumize tvOS";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		08EC28BC203064B5002D1B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS2528ANW;
+				INFOPLIST_FILE = "Premiumize tvOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timh1004.Premiumize-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Premiumize tvOS";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		08EC28BD203064B5002D1B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS2528ANW;
+				INFOPLIST_FILE = "Premiumize tvOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timh1004.Premiumize-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Premiumize tvOS";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -605,6 +967,33 @@
 			buildConfigurations = (
 				082BCC94202120C70060DD8A /* Debug */,
 				082BCC95202120C70060DD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EC28B5203064B5002D1B79 /* Build configuration list for PBXNativeTarget "Premiumize tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EC28B6203064B5002D1B79 /* Debug */,
+				08EC28B7203064B5002D1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EC28B8203064B5002D1B79 /* Build configuration list for PBXNativeTarget "Premiumize tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EC28B9203064B5002D1B79 /* Debug */,
+				08EC28BA203064B5002D1B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EC28BB203064B5002D1B79 /* Build configuration list for PBXNativeTarget "Premiumize tvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EC28BC203064B5002D1B79 /* Debug */,
+				08EC28BD203064B5002D1B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

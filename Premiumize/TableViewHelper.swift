@@ -21,7 +21,9 @@ class TableViewHelper {
 //        messageLabel.font = UIFont(name: "TrebuchetMS", size: 15)
         messageLabel.sizeToFit()
         
+        #if os(iOS)
+            tableView.separatorStyle = .none;
+        #endif
         tableView.backgroundView = messageLabel;
-        tableView.separatorStyle = .none;
     }
 }

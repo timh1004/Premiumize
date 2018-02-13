@@ -140,14 +140,6 @@ class DownloaderViewController: UIViewController, UITableViewDelegate, UITableVi
                 }
             }
             }.resume()
-        
-        // necessary to allow audio playback when silent mode is turned on
-        do {
-            //            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-            //            try AVAudioSession.sharedInstance().setActive(true)
-        } catch let error {
-            print(error.localizedDescription)
-        }
     }
     
     func addDownload(url: String) {
@@ -295,7 +287,13 @@ class DownloaderViewController: UIViewController, UITableViewDelegate, UITableVi
                 if let files = self.files {
                     for file in files {
                         if file.id == transfer.fileId, let streamLink = file.streamLink {
-                            Player.playFileWithUrl(url: streamLink, id: file.id, viewController: self)
+                            let vc = FilePlayerViewController()
+                            vc.id = file.id
+                            vc.url = streamLink
+                            vc.calledViewController = self
+                            self.present(vc, animated: true) {
+                                vc.player!.play()
+                            }
                         }
                     }
                 }
